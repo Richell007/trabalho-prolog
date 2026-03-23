@@ -13,62 +13,61 @@
 % =================================================================
 % Formato: pergunta(ID, Texto, [Alternativas], RespostaCorreta, Tema, Dificuldade)
 % RespostaCorreta: a, b, c, d (letra minúscula correspondente à alternativa)
-
 % ========================= FACIL =========================
-pergunta(1, 'Qual a capital do Brasil?', ['São Paulo','Rio de Janeiro','Brasília','Salvador'], c, geografia, facil).
+pergunta(1, 'Qual a capital do Brasil?', ['Sao Paulo','Rio de Janeiro','Brasilia','Salvador'], c, geografia, facil).
 pergunta(2, 'Qual o resultado de 12 + 8?', ['18','20','22','24'], b, matematica, facil).
-pergunta(3, 'Qual elemento é essencial para a respiração humana?', ['Oxigênio','Hidrogênio','Carbono','Nitrogênio'], a, ciencia, facil).
-pergunta(4, 'Qual é o maior planeta do sistema solar?', ['Terra','Marte','Júpiter','Saturno'], c, ciencia, facil).
-pergunta(5, 'Qual a fórmula química da água?', ['CO2','H2O','O2','NaCl'], b, ciencia, facil).
-pergunta(6, 'Qual destes animais é um mamífero?', ['Cobra','Gato','Galinha','Peixe'], b, geral, facil).
-pergunta(7, 'Qual o resultado de 15 ÷ 3?', ['3','4','5','6'], c, matematica, facil).
-pergunta(8, 'Qual a cor predominante da vegetação?', ['Azul','Verde','Amarelo','Vermelho'], b, geral, facil).
-pergunta(9, 'O Sol nasce em qual direção?', ['Norte','Sul','Leste','Oeste'], c, geografia, facil).
+pergunta(3, 'Qual elemento e essencial para a respiracao humana?', ['Oxigenio','Hidrogenio','Carbono','Nitrogenio'], a, ciencia, facil).
+pergunta(4, 'Qual e o maior planeta do sistema solar?', ['Terra','Marte','Jupiter','Saturno'], c, ciencia, facil).
+pergunta(5, 'Qual a formula quimica da agua?', ['CO2','H2O','O2','NaCl'], b, ciencia, facil).
+pergunta(6, 'Qual destes animais e um mamifero?', ['Cobra','Gato','Galinha','Peixe'], b, geral, facil).
+pergunta(7, 'Qual o resultado de 15 / 3?', ['3','4','5','6'], c, matematica, facil).
+pergunta(8, 'Qual a cor predominante da vegetacao?', ['Azul','Verde','Amarelo','Vermelho'], b, geral, facil).
+pergunta(9, 'O Sol nasce em qual direcao?', ['Norte','Sul','Leste','Oeste'], c, geografia, facil).
 pergunta(10, 'Qual o resultado de 9 + 6?', ['13','14','15','16'], c, matematica, facil).
-pergunta(11, 'Qual planeta é conhecido como "planeta azul"?', ['Marte','Terra','Júpiter','Saturno'], b, ciencia, facil).
-pergunta(12, 'Qual a capital da França?', ['Roma','Paris','Berlim','Lisboa'], b, geografia, facil).
+pergunta(11, 'Qual planeta e conhecido como "planeta azul"?', ['Marte','Terra','Jupiter','Saturno'], b, ciencia, facil).
+pergunta(12, 'Qual a capital da Franca?', ['Roma','Paris','Berlim','Lisboa'], b, geografia, facil).
 pergunta(13, 'Qual o resultado de 14 - 5?', ['7','8','9','10'], c, matematica, facil).
-pergunta(14, 'Qual destes animais pode voar?', ['Cachorro','Gato','Pássaro','Cavalo'], c, geral, facil).
-pergunta(15, 'Qual órgão bombeia o sangue no corpo humano?', ['Pulmão','Cérebro','Coração','Fígado'], c, ciencia, facil).
+pergunta(14, 'Qual destes animais pode voar?', ['Cachorro','Gato','Passaro','Cavalo'], c, geral, facil).
+pergunta(15, 'Qual orgao bombeia o sangue no corpo humano?', ['Pulmao','Cerebro','Coracao','Figado'], c, ciencia, facil).
 
 % ========================= MEDIO =========================
-pergunta(16, 'Em que ano o homem chegou à Lua?', ['1965','1969','1970','1960'], b, historia, medio).
+pergunta(16, 'Em que ano o homem chegou a Lua?', ['1965','1969','1970','1960'], b, historia, medio).
 pergunta(17, 'Qual a capital da Alemanha?', ['Berlim','Roma','Paris','Madri'], a, geografia, medio).
 pergunta(18, 'Qual o resultado de 7 x 8?', ['54','56','58','60'], b, matematica, medio).
-pergunta(19, 'Quem é o autor de "Dom Quixote"?', ['Cervantes','Machado de Assis','Shakespeare','Fernando Pessoa'], a, literatura, medio).
-pergunta(20, 'Qual é o maior oceano do planeta?', ['Atlântico','Índico','Pacífico','Ártico'], c, geografia, medio).
+pergunta(19, 'Quem e o autor de "Dom Quixote"?', ['Cervantes','Machado de Assis','Shakespeare','Fernando Pessoa'], a, literatura, medio).
+pergunta(20, 'Qual e o maior oceano do planeta?', ['Atlantico','Indico','Pacifico','Artico'], c, geografia, medio).
 pergunta(21, 'Qual a raiz quadrada de 81?', ['7','8','9','10'], c, matematica, medio).
-pergunta(22, 'Qual o símbolo químico do ouro?', ['Au','Ag','Fe','Cu'], a, ciencia, medio).
-pergunta(23, 'Qual a capital da Itália?', ['Roma','Milão','Nápoles','Turim'], a, geografia, medio).
-pergunta(24, 'Quem descobriu o Brasil?', ['Pedro Álvares Cabral','Cristóvão Colombo','Américo Vespúcio','Napoleão Bonaparte'], a, historia, medio).
+pergunta(22, 'Qual o simbolo quimico do ouro?', ['Au','Ag','Fe','Cu'], a, ciencia, medio).
+pergunta(23, 'Qual a capital da Italia?', ['Roma','Milao','Napoles','Turim'], a, geografia, medio).
+pergunta(24, 'Quem descobriu o Brasil?', ['Pedro Alvares Cabral','Cristovao Colombo','Americo Vespucio','Napoleao Bonaparte'], a, historia, medio).
 pergunta(25, 'Qual o resultado de 10 x 10?', ['90','100','110','120'], b, matematica, medio).
-pergunta(26, 'Qual planeta é conhecido por seus anéis?', ['Terra','Saturno','Marte','Vênus'], b, ciencia, medio).
+pergunta(26, 'Qual planeta e conhecido por seus aneis?', ['Terra','Saturno','Marte','Venus'], b, ciencia, medio).
 pergunta(27, 'Quem escreveu "Hamlet"?', ['Shakespeare','Cervantes','Fernando Pessoa','Kafka'], a, literatura, medio).
-pergunta(28, 'Em qual continente fica o Brasil?', ['Europa','Ásia','América','África'], c, geografia, medio).
+pergunta(28, 'Em qual continente fica o Brasil?', ['Europa','Asia','America','Africa'], c, geografia, medio).
 pergunta(29, 'Qual o valor de 5²?', ['20','25','30','15'], b, matematica, medio).
-pergunta(30, 'Qual a velocidade aproximada da luz no vácuo?', ['300.000 km/s','150.000 km/s','1.000.000 km/s','500.000 km/s'], a, ciencia, medio).
+pergunta(30, 'Qual a velocidade aproximada da luz no vacuo?', ['300.000 km/s','150.000 km/s','1.000.000 km/s','500.000 km/s'], a, ciencia, medio).
 
 % ========================= DIFICIL =========================
 pergunta(31, 'Qual a derivada de x²?', ['2x','x','x²','1'], a, matematica, dificil).
-pergunta(32, 'O Teorema Fundamental do Cálculo relaciona quais conceitos?', ['Derivada e integral','Área e volume','Tempo e espaço','Massa e energia'], a, matematica, dificil).
-pergunta(33, 'Qual a capital da Mongólia?', ['Astana','Ulaanbaatar','Tashkent','Bishkek'], b, geografia, dificil).
-pergunta(34, 'Em que ano teve início a Segunda Guerra Mundial?', ['1939','1940','1941','1938'], a, historia, dificil).
+pergunta(32, 'O Teorema Fundamental do Calculo relaciona quais conceitos?', ['Derivada e integral','Area e volume','Tempo e espaco','Massa e energia'], a, matematica, dificil).
+pergunta(33, 'Qual a capital da Mongolia?', ['Astana','Ulaanbaatar','Tashkent','Bishkek'], b, geografia, dificil).
+pergunta(34, 'Em que ano teve inicio a Segunda Guerra Mundial?', ['1939','1940','1941','1938'], a, historia, dificil).
 pergunta(35, 'Qual o valor aproximado da constante de Planck?', ['6,63 × 10⁻³⁴','3 × 10⁸','9,8','1,6 × 10⁻¹⁹'], a, ciencia, dificil).
 pergunta(36, 'Quem escreveu "A Metamorfose"?', ['Franz Kafka','Friedrich Nietzsche','Sigmund Freud','Johann Goethe'], a, literatura, dificil).
 pergunta(37, 'Qual a integral de 1/x?', ['ln(x)','x','1/x','x²'], a, matematica, dificil).
-pergunta(38, 'Qual é o maior deserto quente do mundo?', ['Saara','Gobi','Atacama','Kalahari'], a, geografia, dificil).
-pergunta(39, 'Qual a fórmula da Segunda Lei de Newton?', ['F = m × a','F = m × v','F = m / a','F = v / a'], a, ciencia, dificil).
-pergunta(40, 'Em que ano ocorreu a Independência do Brasil?', ['1822','1808','1889','1500'], a, historia, dificil).
-pergunta(41, 'Qual o número de Avogadro?', ['6,02 × 10²³','3 × 10⁸','9,8','1 × 10⁶'], a, ciencia, dificil).
-pergunta(42, 'Quem escreveu "O Processo"?', ['Franz Kafka','George Orwell','Albert Camus','Fiódor Dostoiévski'], a, literatura, dificil).
+pergunta(38, 'Qual e o maior deserto quente do mundo?', ['Saara','Gobi','Atacama','Kalahari'], a, geografia, dificil).
+pergunta(39, 'Qual a formula da Segunda Lei de Newton?', ['F = m × a','F = m × v','F = m / a','F = v / a'], a, ciencia, dificil).
+pergunta(40, 'Em que ano ocorreu a Independencia do Brasil?', ['1822','1808','1889','1500'], a, historia, dificil).
+pergunta(41, 'Qual o numero de Avogadro?', ['6,02 × 10²³','3 × 10⁸','9,8','1 × 10⁶'], a, ciencia, dificil).
+pergunta(42, 'Quem escreveu "O Processo"?', ['Franz Kafka','George Orwell','Albert Camus','Fiodor Dostoievski'], a, literatura, dificil).
 pergunta(43, 'Qual a derivada de sen(x)?', ['cos(x)','-cos(x)','sen(x)','-sen(x)'], a, matematica, dificil).
-pergunta(44, 'Qual a capital do Cazaquistão?', ['Astana','Moscou','Kiev','Minsk'], a, geografia, dificil).
-pergunta(45, 'Em que ano ocorreu a Revolução Francesa?', ['1789','1776','1804','1750'], a, historia, dificil).
-pergunta(46, 'Qual a fórmula da energia cinética?', ['(m × v²)/2','m × a','m × v','m × g × h'], a, ciencia, dificil).
-pergunta(47, 'Quem escreveu "Crime e Castigo"?', ['Fiódor Dostoiévski','Liev Tolstói','Franz Kafka','Albert Camus'], a, literatura, dificil).
+pergunta(44, 'Qual a capital do Cazaquistao?', ['Astana','Moscou','Kiev','Minsk'], a, geografia, dificil).
+pergunta(45, 'Em que ano ocorreu a Revolucao Francesa?', ['1789','1776','1804','1750'], a, historia, dificil).
+pergunta(46, 'Qual a formula da energia cinetica?', ['(m × v²)/2','m × a','m × v','m × g × h'], a, ciencia, dificil).
+pergunta(47, 'Quem escreveu "Crime e Castigo"?', ['Fiodor Dostoievski','Liev Tolstoi','Franz Kafka','Albert Camus'], a, literatura, dificil).
 pergunta(48, 'Qual a integral de x?', ['x²/2','x','1/x','ln(x)'], a, matematica, dificil).
-pergunta(49, 'Qual a capital da Islândia?', ['Reykjavik','Oslo','Helsinki','Copenhague'], a, geografia, dificil).
-pergunta(50, 'Em que ano ocorreu a queda do Império Romano do Ocidente?', ['476 d.C.','410 d.C.','500 d.C.','450 d.C.'], a, historia, dificil).
+pergunta(49, 'Qual a capital da Islandia?', ['Reykjavik','Oslo','Helsinki','Copenhague'], a, geografia, dificil).
+pergunta(50, 'Em que ano ocorreu a queda do Imperio Romano do Ocidente?', ['476 d.C.','410 d.C.','500 d.C.','450 d.C.'], a, historia, dificil).
 
 % =================================================================
 % CONFIGURAÇÕES DO SISTEMA
