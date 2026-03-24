@@ -185,10 +185,23 @@ proxima_dificuldade(Pontuacao, dificil) :- Pontuacao >= 7.
 % LÓGICA DE ADAPTAÇÃO - IDENTIFICAÇÃO DE TEMA PRIORITÁRIO
 % =================================================================
 % Identifica o tema com maior número de erros para focar nas próximas perguntas
-tema_prioritario(Tema) :-
+tema_prioritario(TemaEscolhido) :-
     findall(Tema-Erros, erro_tema(Tema, Erros), ListaErros),
-    sort(2, @>=, ListaErros, [Tema-_ | _]).
 
+    % Caso 1: todos com 0 erro → totalmente aleatório
+    (forall(member(_-E, ListaErros), E =:= 0) ->
+        findall(T, erro_tema(T, _), Temas),
+        random_member(TemaEscolhido, Temas)
+    ;
+        % Caso 2: pega maior número de erros
+        max_member(_-MaxErro, ListaErros),
+
+        % Pega TODOS os temas com esse valor (resolve empate)
+        findall(T, member(T-MaxErro, ListaErros), TemasMax),
+
+        % Escolhe aleatoriamente entre eles
+        random_member(TemaEscolhido, TemasMax)
+    ).
 % =================================================================
 % SELEÇÃO INTELIGENTE DE PERGUNTAS
 % =================================================================
